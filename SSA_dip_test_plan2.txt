@@ -1,0 +1,56 @@
+Equipment Required
+====================
+
+Test Instruments
+-- LHe Storage Dewar
+-- Dip Test Box
+-- PSquid
+-- Power Supply
+
+Mounting SSA onto toothbrush board
+-- Niobium foil squares: 0.25" x 0.25" x 0.005"
+-- Hysol EA 9309.3 epoxy
+-- Toothbrush board (have 135 w/o foil, 36 w/ foil)
+-- Wirebonder
+
+Assembling toothbrush module
+-- 4x toothbrush boards with SSAs mounted
+-- Steel spreader block
+-- Copper capture combs (toothbrush clamping blocks)
+-- Thermal bus wire
+-- Screws
+    - ???
+
+Setup
+=====
+
+Prepare 4x SSA toothbrush boards and assemble them into a toothbrush block.
+
+Preparing a SSA chip for mounting:
+1) SSA chips come coated with photoresist. Must be cleaned by alternating between acetone and alcohol, ending with alcohol.
+
+Mounting the SSA chip onto the toothbrush board:
+1) Glue with hysol a 0.25" x 0.25" x 0.005" niobium square on the toothbrush board pad where the SSA will be placed. Let cure for 1 hour at 50 deg C.
+2) Glue with hysol the SSA chip onto the niobium square. Let cure for 1 hour at 50 deg C.
+3) Wirebond SSA according to diagram.
+
+Mount four toothbrush boards into toothbrush module:
+1) ...
+
+
+
+PSquid DiffAmp input
+--------------------
+
+PSquid Gain = GDAC + 1
+PSquid Input Range = -2.048 V -> 2.048 V
+
+Dip probe box can be driven with any DAC. The S3B/FB DACs are a little funky since they have the built-in connections. Instead just use S2/S1 DACs to drive dip probe inputs.
+
+PSquid  ->  Dip Probe
+------      ---------
+S2B     ->  BIAS
+S2FB    ->  OFFSET
+S1B     ->  IN
+S1FB    ->  FB
+DiffAmp <-  OUT
