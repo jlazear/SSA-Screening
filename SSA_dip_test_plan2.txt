@@ -30,13 +30,15 @@ Preparing a SSA chip for mounting:
 1) SSA chips come coated with photoresist. Must be cleaned by alternating between acetone and alcohol, ending with alcohol.
 
 Mounting the SSA chip onto the toothbrush board:
-1) Glue with hysol a 0.25" x 0.25" x 0.005" niobium square on the toothbrush board pad where the SSA will be placed. Let cure for 1 hour at 50 deg C.
-2) Glue with hysol the SSA chip onto the niobium square. Let cure for 1 hour at 50 deg C.
+1) Glue with Hysol EA 9309.3 a 0.25" x 0.25" x 0.005" niobium square on the toothbrush board pad where the SSA will be placed. Let cure for 1 hour at 50 deg C.
+2) Glue with Hysol EA 9309.3 the SSA chip onto the niobium square. Let cure for 1 hour at 50 deg C.
 3) Wirebond SSA according to diagram.
+4) [optional] Make gold wirebonds for thermal sinking using the provided pads.
 
 Mount four toothbrush boards into toothbrush module:
 1) ...
 
+Note that series array chips that are put into toothbrush boards are not intended to be removeable and should be treated as permanently attached!
 
 
 PSquid DiffAmp input
